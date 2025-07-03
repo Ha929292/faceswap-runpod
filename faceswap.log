@@ -1,0 +1,21 @@
+07/01/2025 13:41:06 MainProcess     MainThread                     logger          log_setup                      INFO     Log level set to: INFO
+07/01/2025 13:41:09 MainProcess     MainThread                     train           _get_images                    INFO     Model A Directory: 'C:\Users\eddye\Desktop\alinA' (594 images)
+07/01/2025 13:41:09 MainProcess     MainThread                     train           _get_images                    INFO     Model B Directory: 'C:\Users\eddye\Desktop\alinB' (192 images)
+07/01/2025 13:41:09 MainProcess     MainThread                     train           _validate_image_counts         WARNING  At least one of your input folders contains fewer than 250 images. Results are likely to be poor.
+07/01/2025 13:41:09 MainProcess     MainThread                     train           _validate_image_counts         WARNING  You need to provide a significant number of images to successfully train a Neural Network. Aim for between 500 - 5000 images per side.
+07/01/2025 13:41:09 MainProcess     MainThread                     train           process                        INFO     Training data directory: C:\Users\eddye\Desktop\fini
+07/01/2025 13:41:09 MainProcess     MainThread                     train           _output_startup_info           INFO     ===================================================
+07/01/2025 13:41:09 MainProcess     MainThread                     train           _output_startup_info           INFO       Starting
+07/01/2025 13:41:09 MainProcess     MainThread                     train           _output_startup_info           INFO     ===================================================
+07/01/2025 13:41:09 MainProcess     _training                      train           _training                      INFO     Loading data, this may take a while...
+07/01/2025 13:41:09 MainProcess     _training                      plugin_loader   _import                        INFO     Loading Model from Iae plugin...
+07/01/2025 13:41:10 MainProcess     _training                      model           _load                          INFO     No existing state file found. Generating.
+07/01/2025 13:41:10 MainProcess     _training                      settings        get_mixed_precision_layers     INFO     Storing Mixed Precision compatible layers. Please ignore any following warnings about using mixed precision.
+07/01/2025 13:41:10 MainProcess     _training                      device_compatibility_check _log_device_compatibility_check WARNING  Mixed precision compatibility check (mixed_float16): WARNING
+The dtype policy mixed_float16 may run slowly because this machine does not have a GPU. Only Nvidia GPUs with compute capability of at least 7.0 run quickly with mixed_float16.
+If you will use compatible GPU(s) not attached to this host, e.g. by running a multi-worker model, you can ignore this warning. This message will only be logged once
+07/01/2025 13:41:11 MainProcess     _training                      plugin_loader   _import                        INFO     Loading Trainer from Original plugin...
+07/01/2025 13:41:18 MainProcess     _training                      io              save                           INFO     [Saved model] - Average loss since last save: face_a: 0.30068, face_b: 0.42574
+07/01/2025 13:41:20 MainProcess     _training                      train           _run_training_cycle            INFO     [Preview Updated]
+07/01/2025 13:41:43 MainProcess     MainThread                     train           _end_thread                    INFO     Exit requested! The trainer will complete its current cycle, save the models and quit (This can take a couple of minutes depending on your training speed).
+07/01/2025 13:41:44 MainProcess     _training                      io              save                           INFO     [Saved model] - Average loss since last save: face_a: 0.25975, face_b: 0.30388

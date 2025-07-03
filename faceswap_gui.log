@@ -1,0 +1,2 @@
+07/03/2025 19:23:59 MainProcess     MainThread                     logger          log_setup                      INFO     Log level set to: INFO
+07/03/2025 19:24:16 MainProcess     Thread-3                       font_manager    <lambda>                       WARNING  Matplotlib is building the font cache; this may take a moment.
